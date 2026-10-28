@@ -1,7 +1,7 @@
 :root {
   --cor-fundo: #FFFFFF;
   --cor-texto: #1E2A38;
-  --cor-destaque: #E07A2E;
+  --cor-destaque: #3544c7;
   --cor-borda: #D9DDD3;
   --cor-suave: #F4F5EF;
 }
@@ -11,11 +11,11 @@
 *::before,
 *::after {
   box-sizing: border-box;
-}
+},
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Google Sans Code, sans-serif;
   line-height: 1.6;
   color: var(--cor-texto);
   background: var(--cor-fundo);
@@ -85,7 +85,7 @@ button:focus-visible {
   white-space: pre-line;   /* aula 8: o \n vira quebra de linha */
 }
 
-.ok     { border-color: #2E7D32; background: #E8F5E9; }
+.ok     { border-color: #02ff0f; background: #E8F5E9; }
 .alerta { border-color: #F9A825; background: #FFF8E1; }
 .erro   { border-color: #C62828; background: #FFEBEE; }
 
@@ -104,7 +104,7 @@ border-radius: 8px;
 .op p { margin: 0.25rem 0; }
 .status-aguardando { border-left-color: #F9A825; }
 .status-producao { border-left-color: #1565C0; }
-.status-concluida { border-left-color: #2E7D32; opacity: 0.7; }
+.status-concluida { border-left-color: #00ff0d; opacity: 0.7; }
 .filtro.selecionado { outline: 3px solid var(--cor-texto); }
 .modo-tv { /* a tela grande no chão de fábrica */
 --cor-fundo: #111111;
